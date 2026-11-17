@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c3a91e2b4d4f6a8c1e0d9b7a654321, type: 3}
+  m_Name: CardKeyAuthSettings
+  m_EditorClassIdentifier: 
+  AutoStart: 0
+  BaseUrl: https://jmapi.zhengjia.live/
+  ClientSignSecret: ADJAZZmHtGSA0XhH5ArpKSXC4sa7K0wS
+  GameName: "\u70B9\u9910\u6A21\u62DF\u5668"
+  GameId: 4
+  ClientVer: 1.0.0
+  BodyEncryption: 0
+  AutoHeartbeat: 0
+  QuitOnIntegrityFail: 0
+  RememberCardKey: 1

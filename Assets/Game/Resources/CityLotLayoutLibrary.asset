@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9df1e43da1ee8c409a5552e4ce4dea4, type: 3}
+  m_Name: CityLotLayoutLibrary
+  m_EditorClassIdentifier: 
+  Entries:
+  - LotSize: 0
+    LayoutPrefab: {fileID: 572301091180410282, guid: 1aa7b308e992dec47be2b26cccb1e076, type: 3}
+    Weight: 1
+  - LotSize: 1
+    LayoutPrefab: {fileID: 5763169784768644608, guid: 5cf7001951a473c42a339e558ad95cb4, type: 3}
+    Weight: 1
+  - LotSize: 1
+    LayoutPrefab: {fileID: 5778213116464881820, guid: 846479a45486bbd4dbc2f5a8d8bd66a3, type: 3}
+    Weight: 1
+  - LotSize: 2
+    LayoutPrefab: {fileID: 6832448239203576169, guid: 8042f8ce6eabdec4fa3b18e4cd9070b1, type: 3}
+    Weight: 1
+  - LotSize: 2
+    LayoutPrefab: {fileID: 432458395064039917, guid: 73de6ec8fda84c449a07b2fe9c0cabc6, type: 3}
+    Weight: 1
+  - LotSize: 3
+    LayoutPrefab: {fileID: 4187416295264180559, guid: e12a417b38cbcd449b739b5b9e737120, type: 3}
+    Weight: 1
+  - LotSize: 3
+    LayoutPrefab: {fileID: 110002473553664383, guid: d1c96fc12595b7a459e900c2bf9a2cf5, type: 3}
+    Weight: 0.8
+  - LotSize: 3
+    LayoutPrefab: {fileID: 8900931247023272445, guid: c6b5fbc3e18fff445ad6ef20a39a4ed7, type: 3}
+    Weight: 0.9
+  - LotSize: 3
+    LayoutPrefab: {fileID: 307222593141183814, guid: e8ec242687fb2d94ba1da18e06cefdda, type: 3}
+    Weight: 0.9
+  - LotSize: 3
+    LayoutPrefab: {fileID: 1385870875623487424, guid: 2196efbd9e8981647b59512a5c042772, type: 3}
+    Weight: 0.7
+  Weight1x1: 1.2
+  Weight2x1: 1
+  Weight1x2: 1
+  Weight2x2: 0.85

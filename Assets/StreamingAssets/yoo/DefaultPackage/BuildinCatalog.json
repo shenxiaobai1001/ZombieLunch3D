@@ -1,0 +1,1043 @@
+{
+    "FileVersion": "1.0.0",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2026-11-07-842",
+    "Wrappers": [
+        {
+            "BundleGUID": "3d971559fb25e3e336d5bcae39e832d9",
+            "FileName": "defaultpackage_assets_game_resources_moved_config.bundle"
+        },
+        {
+            "BundleGUID": "eb51adaa297320953c7e5ba1b90598b9",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic.bundle"
+        },
+        {
+            "BundleGUID": "5d5caa4680f3849ad098a18b6f71d7dc",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_bgm.bundle"
+        },
+        {
+            "BundleGUID": "961982e9f9446f3f85f74e1969c82d6f",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_中文_欢迎语.bundle"
+        },
+        {
+            "BundleGUID": "0129533f83496dc437ca60295d492d9f",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_中文_点餐朗读.bundle"
+        },
+        {
+            "BundleGUID": "3ff8b7a41b7017780f198e73a5e37ba4",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_中文_顾客语气.bundle"
+        },
+        {
+            "BundleGUID": "7478b06f90b7368d50dcfaff819eda6b",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_俄语_欢迎语.bundle"
+        },
+        {
+            "BundleGUID": "92b086bb58657827372daebeee335fe6",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_俄语_点餐朗读.bundle"
+        },
+        {
+            "BundleGUID": "840af19947f328dbe8bce352f6caecc2",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_俄语_顾客语气.bundle"
+        },
+        {
+            "BundleGUID": "2076cc84e50d8055c525ac9f5ba9143e",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_印地语_欢迎语.bundle"
+        },
+        {
+            "BundleGUID": "db5f7388eb8c6935433ecbffea762e90",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_印地语_点餐朗读.bundle"
+        },
+        {
+            "BundleGUID": "7d2726607319223b63a64c9e5e7c9036",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_印地语_顾客语气.bundle"
+        },
+        {
+            "BundleGUID": "7a49e22ceb8e9fdc58c5c80fdd820692",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_印尼语_欢迎语.bundle"
+        },
+        {
+            "BundleGUID": "293c1e8fdc98efb7be503b848c21d090",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_印尼语_点餐朗读.bundle"
+        },
+        {
+            "BundleGUID": "0e16620e34b060b31148756a624d3f9d",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_印尼语_顾客语气.bundle"
+        },
+        {
+            "BundleGUID": "09064a6b5fb90b63652da0f4c03cabaa",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_土耳其语_欢迎语.bundle"
+        },
+        {
+            "BundleGUID": "9ea35cf103d4e5aa45f664824388eb70",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_土耳其语_点餐朗读.bundle"
+        },
+        {
+            "BundleGUID": "90a004e9375fe932f91e7542732034ce",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_土耳其语_顾客语气.bundle"
+        },
+        {
+            "BundleGUID": "eb6ed9d8d997413c9122ef6976487403",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_多语言_开始_旗语开场.bundle"
+        },
+        {
+            "BundleGUID": "aa1b96adae07485cf12e9eb508ebf047",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_德语_欢迎语.bundle"
+        },
+        {
+            "BundleGUID": "6fb1fea814332f6311b3fb5c968f76cd",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_德语_点餐朗读.bundle"
+        },
+        {
+            "BundleGUID": "f7fc4ce673adbca631da6bd4f1fc62ff",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_德语_顾客语气.bundle"
+        },
+        {
+            "BundleGUID": "cb89b7046c3a744a2ebcf6eac9246e63",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_意大利语_欢迎语.bundle"
+        },
+        {
+            "BundleGUID": "4cd981289ecb3a2b8907288fa1e42bdb",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_意大利语_点餐朗读.bundle"
+        },
+        {
+            "BundleGUID": "d3f27e6e542727bb6eef6523f6bced0c",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_意大利语_顾客语气.bundle"
+        },
+        {
+            "BundleGUID": "a0fac61c5743069762a9e6aed45b4fb4",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_日语_欢迎语.bundle"
+        },
+        {
+            "BundleGUID": "8e1e88b07f2867c0f9156e644677374c",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_日语_点餐朗读.bundle"
+        },
+        {
+            "BundleGUID": "de4ded00c4226ad48f95043a99a6730a",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_日语_顾客语气.bundle"
+        },
+        {
+            "BundleGUID": "3e94c4643b7072e42c72f6e65fe5b29a",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_法语_欢迎语.bundle"
+        },
+        {
+            "BundleGUID": "caec85a7addc8d65d9550a9032689a93",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_法语_点餐朗读.bundle"
+        },
+        {
+            "BundleGUID": "7a26d0b654cbd29ac38daa6c272a4a40",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_法语_顾客语气.bundle"
+        },
+        {
+            "BundleGUID": "875fe81bab2b716de4ef5a97cfe6dcce",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_英语_欢迎语.bundle"
+        },
+        {
+            "BundleGUID": "2fb56bd1eeba087b7c94dd10c89e9a6c",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_英语_点餐朗读.bundle"
+        },
+        {
+            "BundleGUID": "74b61b996f21e598d54b6b22807c4d67",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_英语_顾客语气.bundle"
+        },
+        {
+            "BundleGUID": "dda391567344a746447b7bddf246dd0a",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_葡萄牙语_欢迎语.bundle"
+        },
+        {
+            "BundleGUID": "18fe71e07a74720414b8f3ca2107cc25",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_葡萄牙语_点餐朗读.bundle"
+        },
+        {
+            "BundleGUID": "2ef42ccfc77b33a896b9555c8896d344",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_葡萄牙语_顾客语气.bundle"
+        },
+        {
+            "BundleGUID": "5a12e9767cfe3da307e2fee4def198c5",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_西班牙语_欢迎语.bundle"
+        },
+        {
+            "BundleGUID": "ca6d922bd0a7a542b18e5d05fbb528e2",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_西班牙语_点餐朗读.bundle"
+        },
+        {
+            "BundleGUID": "9d2126d6a511969daed2e3b17f3aaec8",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_西班牙语_顾客语气.bundle"
+        },
+        {
+            "BundleGUID": "28d414d365882ef43f0bc85ff8da72fe",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_阿拉伯语_欢迎语.bundle"
+        },
+        {
+            "BundleGUID": "d3ce834affb76c78e7b647d2f8536b87",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_阿拉伯语_点餐朗读.bundle"
+        },
+        {
+            "BundleGUID": "57022c380ee106b78d84aea26b720168",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_阿拉伯语_顾客语气.bundle"
+        },
+        {
+            "BundleGUID": "514384fa906322789ad517c951d15c4e",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_韩语_欢迎语.bundle"
+        },
+        {
+            "BundleGUID": "cdfbbc50531db709561f7d51e7b71c9c",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_韩语_点餐朗读.bundle"
+        },
+        {
+            "BundleGUID": "7a719c5ec93de5c17f93ca951d7aba33",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_语音_韩语_顾客语气.bundle"
+        },
+        {
+            "BundleGUID": "fece5bcb6871515de8fdf769557adbde",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_logo.bundle"
+        },
+        {
+            "BundleGUID": "04e46780e9d984577761da3fbf526487",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_ui.bundle"
+        },
+        {
+            "BundleGUID": "c55d9ebe817ac2591c69648c88997cf2",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_刀具.bundle"
+        },
+        {
+            "BundleGUID": "4339bc64281efff4f15eb4dcbe5fb497",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_切肉机.bundle"
+        },
+        {
+            "BundleGUID": "870258e3723ea4b313397871ef9f0e5f",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_加热.bundle"
+        },
+        {
+            "BundleGUID": "4a708d2273a182cf350ad43dc9453243",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_包装纸.bundle"
+        },
+        {
+            "BundleGUID": "2c353f193f80ee279b389cf4b3669dfe",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_卷饼.bundle"
+        },
+        {
+            "BundleGUID": "c8efd52b9a7e46088ff72f8554cf4949",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_商店.bundle"
+        },
+        {
+            "BundleGUID": "44cf5f18dcaed2ed3392cb6d8d03fd9f",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_土豆.bundle"
+        },
+        {
+            "BundleGUID": "48863524e439a158d8caf544faa64fb1",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_容器.bundle"
+        },
+        {
+            "BundleGUID": "34bf51af0830fdedfa890d6579f610f4",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_打击.bundle"
+        },
+        {
+            "BundleGUID": "2b87d2fb24fcb5692d60f761df0ffe86",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_打包.bundle"
+        },
+        {
+            "BundleGUID": "3c99ad59843a8f8800e439fd6a2c2177",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_抹布.bundle"
+        },
+        {
+            "BundleGUID": "d6eeadfa7135d922a55f88272536c1b7",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_招牌.bundle"
+        },
+        {
+            "BundleGUID": "de50411404fb299bc7a7b2351d19dcb6",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_提醒.bundle"
+        },
+        {
+            "BundleGUID": "9e2ded0a69e0de9c1eac2f47116a2069",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_炸丸子.bundle"
+        },
+        {
+            "BundleGUID": "4d20238c4ed018225c6a2844cf2d2a9d",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_炸锅.bundle"
+        },
+        {
+            "BundleGUID": "a663b6e1218fee02aa4e67f398645bf1",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_烟花.bundle"
+        },
+        {
+            "BundleGUID": "b49a0db6aca3f5ddca11f4de978902a9",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_烤串.bundle"
+        },
+        {
+            "BundleGUID": "eefe6480fa3626d58a1d9ffe419ee41c",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_烤焦.bundle"
+        },
+        {
+            "BundleGUID": "49c17e4753d3a18287c529786ce8487c",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_甜品.bundle"
+        },
+        {
+            "BundleGUID": "af57243212ff94cb9aa46ec580b832c3",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_碎屑.bundle"
+        },
+        {
+            "BundleGUID": "9a219f236e69d065f566cd5b14c0b458",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_薯条.bundle"
+        },
+        {
+            "BundleGUID": "6b7b0103975f8ef79adaae535b648aa6",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_补货.bundle"
+        },
+        {
+            "BundleGUID": "89f372e329d6e3b748cbf996e9eb57b9",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_计时.bundle"
+        },
+        {
+            "BundleGUID": "0ae159e4a6dc7b1ceac3c142512dc0aa",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_评价.bundle"
+        },
+        {
+            "BundleGUID": "92d82a5074df16d7495dd98a82514c6f",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_通用.bundle"
+        },
+        {
+            "BundleGUID": "6f2ed4784ee060ccf6d1108ea1a1b265",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_金币.bundle"
+        },
+        {
+            "BundleGUID": "0b9f2964e2364654b6732d0e4f813483",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_面包.bundle"
+        },
+        {
+            "BundleGUID": "5d704dac84193559850a879158506e58",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_顾客.bundle"
+        },
+        {
+            "BundleGUID": "cde3a8fd8ef1a55a6a794224bd75e973",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_gamemusic_音效_饮料.bundle"
+        },
+        {
+            "BundleGUID": "00daab29bc6c2d135ec3cf3b679ecd8e",
+            "FileName": "defaultpackage_assets_game_resources_moved_media_mod.bundle"
+        },
+        {
+            "BundleGUID": "a513a3d8fcd4509c2312c155ecec176f",
+            "FileName": "defaultpackage_assets_game_resources_moved_prefabs_game.bundle"
+        },
+        {
+            "BundleGUID": "e13eaacea5aa37f29fb2e67a589ddbab",
+            "FileName": "defaultpackage_assets_game_resources_moved_prefabs_game_client.bundle"
+        },
+        {
+            "BundleGUID": "360984696cac2c2f5701b3959cf4bd67",
+            "FileName": "defaultpackage_assets_game_resources_moved_prefabs_game_oreder.bundle"
+        },
+        {
+            "BundleGUID": "7494f50ba65f3e9e5179ddf7195a9bd0",
+            "FileName": "defaultpackage_assets_game_resources_moved_prefabs_mod.bundle"
+        },
+        {
+            "BundleGUID": "36ca98db5aa69a28bbe8e5dd3612431a",
+            "FileName": "defaultpackage_assets_game_resources_moved_prefabs_mod_danmakufunc.bundle"
+        },
+        {
+            "BundleGUID": "e5011639d0ecc40176164dc315831c88",
+            "FileName": "defaultpackage_assets_game_resources_moved_prefabs_ui.bundle"
+        },
+        {
+            "BundleGUID": "77d0191b85cc7d3f42d851fc05eb341a",
+            "FileName": "defaultpackage_assets_game_scenes.bundle"
+        },
+        {
+            "BundleGUID": "df83d862551a0deac2923ad882f57da7",
+            "FileName": "defaultpackage_assets_textures.bundle"
+        },
+        {
+            "BundleGUID": "f3a34f7caccc041991f5f65cc42313af",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_bunny.bundle"
+        },
+        {
+            "BundleGUID": "237256bd64e30b92416552678c061532",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_buttons_base.bundle"
+        },
+        {
+            "BundleGUID": "dc766f266963c7c60d85b9ccde47f697",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_buttons_handle_(slider).bundle"
+        },
+        {
+            "BundleGUID": "9893b23a87e770a9a51901a72f3099d5",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_buttons_idle_(pulse).bundle"
+        },
+        {
+            "BundleGUID": "04519f4012df2475961f847e8030838d",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_buttons_idle_(pulse_big).bundle"
+        },
+        {
+            "BundleGUID": "8f64017ceaa2521b75eec92a51d8890d",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_buttons_idle_(rotate).bundle"
+        },
+        {
+            "BundleGUID": "a154d9f7d4a9997394e3c7f37e98deda",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_effects_alpha_fade_(image).bundle"
+        },
+        {
+            "BundleGUID": "e9cb5b9f8ebb69af2cba6de162510814",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_effects_enter_-_pop.bundle"
+        },
+        {
+            "BundleGUID": "6074c766f0f5d7de5803aa35f4e970a8",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_effects_enter_-_pop_-_idle_(rotate).bundle"
+        },
+        {
+            "BundleGUID": "efecfee24a4962d7f2984a49ad850505",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_effects_enter_-_pop_-_idle_(scale).bundle"
+        },
+        {
+            "BundleGUID": "8c97c22cdf48dbcf3cc84e86f76426e2",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_effects_pop_-_idle_(scale).bundle"
+        },
+        {
+            "BundleGUID": "d8dbb4536d53c1792c8cc90207cbda2b",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_effects_pulse.bundle"
+        },
+        {
+            "BundleGUID": "530049b49dc0e573fc523b8ca0fc88d8",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_effects_rotate.bundle"
+        },
+        {
+            "BundleGUID": "0f769162b2f6f928a508430e3427e6ab",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_effects_rotate_360.bundle"
+        },
+        {
+            "BundleGUID": "630d19d1a72356f6c499915961653abf",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_effects_shake.bundle"
+        },
+        {
+            "BundleGUID": "9691a81d6bb284870874c830985473df",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_effects_sparkle_shine.bundle"
+        },
+        {
+            "BundleGUID": "914e1492b45620bc5ecd2e34f88ac635",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_effects_thunder.bundle"
+        },
+        {
+            "BundleGUID": "51f9b69f79632776dafe805a64160231",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_effects_zoom.bundle"
+        },
+        {
+            "BundleGUID": "70bf881077d051687e49897670d5006d",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_level.bundle"
+        },
+        {
+            "BundleGUID": "136a185fd4b68098fa49170d815d1577",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_popup.bundle"
+        },
+        {
+            "BundleGUID": "e9a89119e4ae4bf06644bb71112f4c27",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_progress_bar_horizontal.bundle"
+        },
+        {
+            "BundleGUID": "b1a68d3beb3339adf473815ed6a5984c",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_animations_progress_bar_radial.bundle"
+        },
+        {
+            "BundleGUID": "7995bf8e16f488864055f86b4b429bef",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_fonts.bundle"
+        },
+        {
+            "BundleGUID": "3141214487f58266beb1b6c4a27aa471",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_materials.bundle"
+        },
+        {
+            "BundleGUID": "90f21047681b307fc04cd130c646410e",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_popups.bundle"
+        },
+        {
+            "BundleGUID": "fff0317106d9ad72cca36f3e1a360804",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_buttons_circles.bundle"
+        },
+        {
+            "BundleGUID": "61d136560dcdaab268f31fdc1c111f3d",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_buttons_level.bundle"
+        },
+        {
+            "BundleGUID": "97474ca4cf49b9113940b5d4b7989c8e",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_buttons_rectangles.bundle"
+        },
+        {
+            "BundleGUID": "13dc904b9fa3d453ed6183bbdaa18e6c",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_buttons_square.bundle"
+        },
+        {
+            "BundleGUID": "c4ce07c709f0a19a8726c2db9edb6d0a",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_canvas.bundle"
+        },
+        {
+            "BundleGUID": "bd4e89cc794f9aa542d2d21b8809d38d",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_checkbox.bundle"
+        },
+        {
+            "BundleGUID": "f6ef88eeefb3122d1cac3c3a82a2256e",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_dropdown.bundle"
+        },
+        {
+            "BundleGUID": "fceb52d526c1e3bc80324d635028802c",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_input_field.bundle"
+        },
+        {
+            "BundleGUID": "7909eb7c2f4a69f453ffef50f3a956ff",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_items_amount_circle.bundle"
+        },
+        {
+            "BundleGUID": "820bce9750e85ca422ff0223d3193f25",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_items_avatar.bundle"
+        },
+        {
+            "BundleGUID": "b6e6238ae48deb40d4ce7b8e61835c9e",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_items_backgrounds.bundle"
+        },
+        {
+            "BundleGUID": "1e8340ad41132e63828930f4788db69a",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_items_checkmark.bundle"
+        },
+        {
+            "BundleGUID": "940fc07e288c60650fe760da71afd1d5",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_items_icon_with_circle_background.bundle"
+        },
+        {
+            "BundleGUID": "db5508e91fdbca304b185aa67f696d14",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_items_image_with_shadow.bundle"
+        },
+        {
+            "BundleGUID": "4e0be94f75bd5d01fa7bdebc865f5119",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_items_rectangle_inner_glow.bundle"
+        },
+        {
+            "BundleGUID": "98809a10e8c30e73a5306c03bc920f46",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_items_sparkle.bundle"
+        },
+        {
+            "BundleGUID": "35c69d78bcf703ce731c40aa963143ce",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_items_sticker_star.bundle"
+        },
+        {
+            "BundleGUID": "da992f1fc00c06bd22160813e2e12cff",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_loading_spinner.bundle"
+        },
+        {
+            "BundleGUID": "b15c631451c6c20fb84f2dfebe74e2dc",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_logo.bundle"
+        },
+        {
+            "BundleGUID": "bfa5c1cac134dd32b9576715fcf3e1f0",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_navigation.bundle"
+        },
+        {
+            "BundleGUID": "7b966f2107726fa98dedb350171e89e6",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_particle_effects.bundle"
+        },
+        {
+            "BundleGUID": "f4fad3a62e2d90b925a7592127b8bfa3",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_popup.bundle"
+        },
+        {
+            "BundleGUID": "a719fedeb9a78252e7432bf548384f31",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_progress_bar_radial.bundle"
+        },
+        {
+            "BundleGUID": "c2886e29cc3e83b6d42409dedb86407e",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_progress_bar_rectangles.bundle"
+        },
+        {
+            "BundleGUID": "967f75d91652c91771a38d5bf54d2769",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_scrollbar.bundle"
+        },
+        {
+            "BundleGUID": "8a2c3c68bdff2cd714b651a542037126",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_scroll_view.bundle"
+        },
+        {
+            "BundleGUID": "c9d4659849207e0d6b52f1cb451b575f",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_slider.bundle"
+        },
+        {
+            "BundleGUID": "f5986c2858dbd78c64aead35f345f922",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_switch.bundle"
+        },
+        {
+            "BundleGUID": "fa872d2f18c1c08139032ce6f5994a7d",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_text_(tmp).bundle"
+        },
+        {
+            "BundleGUID": "c9dc175b352454d7ee9923f81b671776",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_prefabs_ui_elements_toggles.bundle"
+        },
+        {
+            "BundleGUID": "6d71aa0d51c73653cb16fc5f00204e06",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_scenes.bundle"
+        },
+        {
+            "BundleGUID": "61c7529545a2402b1bb81e882ac9b90c",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sounds.bundle"
+        },
+        {
+            "BundleGUID": "66a45f09aa51753e05f9019779abdda8",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_backgrounds_home_scene.bundle"
+        },
+        {
+            "BundleGUID": "94ae503c62f41d559977ed261a2b0cb4",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_backgrounds_level_map.bundle"
+        },
+        {
+            "BundleGUID": "241b0c5986db32b679147743e6a89578",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_backgrounds_level_scene.bundle"
+        },
+        {
+            "BundleGUID": "069b99dd9d558ee52ee525b34b3e5f53",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_backgrounds_popup.bundle"
+        },
+        {
+            "BundleGUID": "e31b169d2142b5b90a0e05f53493604c",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_backgrounds_spin_wheel.bundle"
+        },
+        {
+            "BundleGUID": "d935b6a7d085d50dea3b567050ea1b69",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_buttons_circles.bundle"
+        },
+        {
+            "BundleGUID": "66631a97edc13882eee2c720aa10212c",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_buttons_play_button.bundle"
+        },
+        {
+            "BundleGUID": "8469ff961c2fd91200410bd799c005cc",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_buttons_rectangles.bundle"
+        },
+        {
+            "BundleGUID": "263182c265512c248f1d03e02fc6a468",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_buttons_square.bundle"
+        },
+        {
+            "BundleGUID": "234749c8f3e012548bb0d59ba4299054",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_avatars.bundle"
+        },
+        {
+            "BundleGUID": "5821537195c36210752c700b2192e01b",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_animals.bundle"
+        },
+        {
+            "BundleGUID": "95ccf0b5bc711a461555afac5b6a8863",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_armour.bundle"
+        },
+        {
+            "BundleGUID": "56322b647704b11ea927840af5e6047d",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_arrows.bundle"
+        },
+        {
+            "BundleGUID": "ca5444da41d4d2ba4ad63f74f1bd6181",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_badges.bundle"
+        },
+        {
+            "BundleGUID": "0eefbdb4cd2523fddd813723d86c507c",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_balloons.bundle"
+        },
+        {
+            "BundleGUID": "3d593486c7353605df9696316a5e5166",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_basic.bundle"
+        },
+        {
+            "BundleGUID": "91fdcc7a5d72c6d98985706747dc78d9",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_bolt.bundle"
+        },
+        {
+            "BundleGUID": "f312ae2637799137a82857c325a87595",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_bombs.bundle"
+        },
+        {
+            "BundleGUID": "c620cee4791c8bd6f969c3faadfedc57",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_bunny_(animation).bundle"
+        },
+        {
+            "BundleGUID": "c2a5acdb6b6e5e279cab5930184f0fef",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_candies.bundle"
+        },
+        {
+            "BundleGUID": "299055a7df950f74356e5a274b72c49d",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_clouds.bundle"
+        },
+        {
+            "BundleGUID": "3bfccf8199e047a53a1878a8504af455",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_coins.bundle"
+        },
+        {
+            "BundleGUID": "bcc51f064a7763b4363e2f8c4606aecb",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_commerce.bundle"
+        },
+        {
+            "BundleGUID": "de77ca461a89afadf47e537499748a14",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_credits.bundle"
+        },
+        {
+            "BundleGUID": "8a3f1bf6eab77a7681806b50274050c5",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_donuts.bundle"
+        },
+        {
+            "BundleGUID": "f3cc8d640dbf1f5aa7bb1f939ebeb24e",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_emojis_basic.bundle"
+        },
+        {
+            "BundleGUID": "5bdecc6b8a5f0296a6b50f09853e8447",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_emojis_cartoon.bundle"
+        },
+        {
+            "BundleGUID": "f3b24eea58a43145807f0c2ffe8ea9d7",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_food.bundle"
+        },
+        {
+            "BundleGUID": "675e2a025cc60828e5139ecf22c02d47",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_gems.bundle"
+        },
+        {
+            "BundleGUID": "2dffceb1831177cefe1f9f5808ae0691",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_gifts.bundle"
+        },
+        {
+            "BundleGUID": "5c00aa35f4c731e0e904e077bf611d1c",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_heart_-_health.bundle"
+        },
+        {
+            "BundleGUID": "3d6eea76168e90ea6d95153a85c142b1",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_loading_spinner.bundle"
+        },
+        {
+            "BundleGUID": "e4279992b3d40261e15a474dac1b1618",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_lock_-_key.bundle"
+        },
+        {
+            "BundleGUID": "1e2c5c91f0d7c658bea1ca88885c1c82",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_magic.bundle"
+        },
+        {
+            "BundleGUID": "8d958b86ac6a4531ca9a1b7d0651b2ed",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_media.bundle"
+        },
+        {
+            "BundleGUID": "b49c3a836d95a1ae4f12fe1678bc62a9",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_nature.bundle"
+        },
+        {
+            "BundleGUID": "89b6f84702b81cc45a5f6bda8f5be705",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_other.bundle"
+        },
+        {
+            "BundleGUID": "a010b1fef3904a195a31c33e45de9dc5",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_potion.bundle"
+        },
+        {
+            "BundleGUID": "fa65649418c0a0ce79a59b4aed1ef8ac",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_skull.bundle"
+        },
+        {
+            "BundleGUID": "a16ced11077e5934a80563232416ba8a",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_speech_bubble.bundle"
+        },
+        {
+            "BundleGUID": "066eca79a06d1fb52e630ce254834e81",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_spin_wheel.bundle"
+        },
+        {
+            "BundleGUID": "0efaf9d6474394ad9bc166b1bdc93b54",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_stars.bundle"
+        },
+        {
+            "BundleGUID": "6650227492cf66da1141f3cd601d5761",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_storage.bundle"
+        },
+        {
+            "BundleGUID": "5e218bc5b32b1e4046e321f6d68ec603",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_time.bundle"
+        },
+        {
+            "BundleGUID": "3d2791ee910e3c2c997f9e28cfe3fbcc",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_tools.bundle"
+        },
+        {
+            "BundleGUID": "cc539447acbc42c81271f0cb390ef95d",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_colored_user.bundle"
+        },
+        {
+            "BundleGUID": "37f8f22a3a3aae4fd4465d0cb15f9349",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_white_arrows.bundle"
+        },
+        {
+            "BundleGUID": "6e29ef4c6fe59bd893f833a8ae7da861",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_white_badges.bundle"
+        },
+        {
+            "BundleGUID": "91ff821b8740c3253660869b764e22db",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_white_basic.bundle"
+        },
+        {
+            "BundleGUID": "bee60fb77f785c5d021e642c0cdb15d3",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_white_media.bundle"
+        },
+        {
+            "BundleGUID": "f2f817a34e6a9a767a9385f9594d0fe3",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_white_navigation.bundle"
+        },
+        {
+            "BundleGUID": "7d10c1857e42a94dd346eaa5e4a1a211",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_white_question_mark.bundle"
+        },
+        {
+            "BundleGUID": "131b7a5e7f984dab05bf6bebbea48007",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_white_social.bundle"
+        },
+        {
+            "BundleGUID": "11b8666c26d1b5e76c7b384042996c16",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_white_sticker_star.bundle"
+        },
+        {
+            "BundleGUID": "223badfa653c5b486fdb03ac8b1436e0",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_icons_icons_white_user.bundle"
+        },
+        {
+            "BundleGUID": "3bee1031c8939ec4108c265a54649c46",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_logo.bundle"
+        },
+        {
+            "BundleGUID": "a26e45016a4ede687687fb6b6ea95b95",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_particle_effects.bundle"
+        },
+        {
+            "BundleGUID": "07ebd78cd679de1c5005d7c46f0e3fc2",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_shapes_effects.bundle"
+        },
+        {
+            "BundleGUID": "542ed0806a1a0e871b9d9d9b8f2d4547",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_shapes_shapes_circle.bundle"
+        },
+        {
+            "BundleGUID": "311b109e4716b10361996ab11c26aedf",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_demo_sprites_shapes_shapes_rectangle.bundle"
+        },
+        {
+            "BundleGUID": "56054ea7daa3839722d283eda9c26079",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_backgrounds_buttons_circles.bundle"
+        },
+        {
+            "BundleGUID": "d58c601df3a11a8dff90f8e12a7fcd2c",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_backgrounds_buttons_play_button.bundle"
+        },
+        {
+            "BundleGUID": "65896a347f28827dddbf1efab8bf25e2",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_backgrounds_buttons_rectangles.bundle"
+        },
+        {
+            "BundleGUID": "a9f946d83dbdbe8f08b3a02505037438",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_backgrounds_buttons_square.bundle"
+        },
+        {
+            "BundleGUID": "cb3f8062c56e87a6abcf8301ea37b8cc",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_backgrounds_home_scene.bundle"
+        },
+        {
+            "BundleGUID": "cbf7bbf800b6e2baa5c8d1e34ac9f5cb",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_backgrounds_level_scene.bundle"
+        },
+        {
+            "BundleGUID": "274dad22be4d9a7134d20538bd126da5",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_backgrounds_popup.bundle"
+        },
+        {
+            "BundleGUID": "301400bcdf99124e8e3d5034814d202d",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_backgrounds_spin_wheel.bundle"
+        },
+        {
+            "BundleGUID": "560ce7409a9a566cb9bb8dfec0003283",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_icons_avatars_psd.bundle"
+        },
+        {
+            "BundleGUID": "4767f9d4aa356c8a06d76e754fad08ec",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_icons_icons_colored_psd.bundle"
+        },
+        {
+            "BundleGUID": "6b932abf8eb5836774cfe9e7ff99c96f",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_icons_icons_white_psd.bundle"
+        },
+        {
+            "BundleGUID": "cd0115ddf08b04b2ba859c49d13bc373",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_level_map.bundle"
+        },
+        {
+            "BundleGUID": "66b8aabd841f96ba2c320306f74faa99",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_mockups.bundle"
+        },
+        {
+            "BundleGUID": "b021606839eacf6f82ed63b7d083946e",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_shapes_circle.bundle"
+        },
+        {
+            "BundleGUID": "4122783df8d51317ccadaa9fb84b1de7",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_shapes_effects.bundle"
+        },
+        {
+            "BundleGUID": "e678bc18130155e993a52f37eb87839e",
+            "FileName": "defaultpackage_assets_textures_guipackcartoon_sources_shapes_rectangle.bundle"
+        },
+        {
+            "BundleGUID": "3be00ac51c8ca3b2b7ddc200a31f444e",
+            "FileName": "defaultpackage_assets_textures_liangzi.bundle"
+        },
+        {
+            "BundleGUID": "1325392bdd058d0098ff0f39f1bf21ce",
+            "FileName": "defaultpackage_assets_textures_mod.bundle"
+        },
+        {
+            "BundleGUID": "b21707ba471a99cb40d24af6b8e2d183",
+            "FileName": "defaultpackage_assets_textures_sprites_default_0.bundle"
+        },
+        {
+            "BundleGUID": "e81011d6878ffb962627ba33d391638a",
+            "FileName": "defaultpackage_assets_textures_sprites_plate.bundle"
+        },
+        {
+            "BundleGUID": "b97bf2e46d472ffd2ffa8eefa858e659",
+            "FileName": "defaultpackage_assets_textures_sprites_roll.bundle"
+        },
+        {
+            "BundleGUID": "7dd24b5b75a1f1e5970ea6667b4e1f78",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_bg_0_0.bundle"
+        },
+        {
+            "BundleGUID": "1c43cfb32922001ce8356dd23d3e8533",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_bg_1_0.bundle"
+        },
+        {
+            "BundleGUID": "b787464431c7695859c35f5ca975c1c5",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_bg_2_0.bundle"
+        },
+        {
+            "BundleGUID": "1ff307c961a385589785f16e4e15b104",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_board_0.bundle"
+        },
+        {
+            "BundleGUID": "55f71c4fad6ea4741d6537cca5cdf857",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_flags_0.bundle"
+        },
+        {
+            "BundleGUID": "1f1c375b3c7cc9a1de02414459d69c2d",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_font_chinese_0.bundle"
+        },
+        {
+            "BundleGUID": "49634a83c24e7dbc67887fce003d722a",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_font_japanese_0.bundle"
+        },
+        {
+            "BundleGUID": "e26146437079710015bae5936338b443",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_font_korean_0.bundle"
+        },
+        {
+            "BundleGUID": "a0f41ba8632f66a83992ef71623d5b4d",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_font_tur_hin_rus_0.bundle"
+        },
+        {
+            "BundleGUID": "f1949e1f9528d54411ab2410117ca7d1",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_game_1.bundle"
+        },
+        {
+            "BundleGUID": "c75a7dc27c61dc47b09b400149eded46",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_logo_0.bundle"
+        },
+        {
+            "BundleGUID": "f85742ed42eb204c7669af7112026476",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_mm_0.bundle"
+        },
+        {
+            "BundleGUID": "34b93a63dac70be1911f9e776d13531f",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_mm_1.bundle"
+        },
+        {
+            "BundleGUID": "5aa2f8fa778d1dd238e1d6a7cc380f8e",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_rightwall_0.bundle"
+        },
+        {
+            "BundleGUID": "18bb555b701bb667f20a5c805854a4b5",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_settings_0.bundle"
+        },
+        {
+            "BundleGUID": "67bd73dfe754cd562689cb711855ede7",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_shawarma_0.bundle"
+        },
+        {
+            "BundleGUID": "75c1b87e63c158b31e902cd66b72707e",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_shop_0.bundle"
+        },
+        {
+            "BundleGUID": "9869ba93e9c689b40c1b36149727fda5",
+            "FileName": "defaultpackage_assets_textures_sprites_tg_zbon_0.bundle"
+        },
+        {
+            "BundleGUID": "173c81564948738595d8ddc41e6c1a6c",
+            "FileName": "defaultpackage_assets_textures_sprites_thief.bundle"
+        },
+        {
+            "BundleGUID": "54dbe0f839f3035d261c3846e55df8e8",
+            "FileName": "defaultpackage_assets_textures_unpacked_images.bundle"
+        },
+        {
+            "BundleGUID": "1225f2781d117c3f570a29fa10ed44bc",
+            "FileName": "defaultpackage_share_assets_game_animation.bundle"
+        },
+        {
+            "BundleGUID": "6bd2c1b9d269c652afdd7bba1af56c91",
+            "FileName": "defaultpackage_share_assets_game_animation_client.bundle"
+        },
+        {
+            "BundleGUID": "dee9d11827765b941aee2949dc88e2a2",
+            "FileName": "defaultpackage_share_assets_game_barrage_anim.bundle"
+        },
+        {
+            "BundleGUID": "21e236b5269e783e4372b3f16effc3df",
+            "FileName": "defaultpackage_share_assets_game_barrage_audio.bundle"
+        },
+        {
+            "BundleGUID": "5a0d4668ca8dda8d9d53fea7ffd7e82f",
+            "FileName": "defaultpackage_share_assets_game_barrage_font.bundle"
+        },
+        {
+            "BundleGUID": "1684f38d070cc5f2699bb9dd3bbd525e",
+            "FileName": "defaultpackage_share_assets_game_barrage_fx_assets_materials.bundle"
+        },
+        {
+            "BundleGUID": "e904aee36253b7b6cdce4a27cc869a7f",
+            "FileName": "defaultpackage_share_assets_game_barrage_fx_assets_prefabs.bundle"
+        },
+        {
+            "BundleGUID": "4a93f02fc36b7339ed38b7eaab25d9be",
+            "FileName": "defaultpackage_share_assets_game_barrage_fx_assets_textures.bundle"
+        },
+        {
+            "BundleGUID": "99834bd80af936e422d1091a4117f859",
+            "FileName": "defaultpackage_share_assets_game_barrage_perfabs.bundle"
+        },
+        {
+            "BundleGUID": "516d80f69f54b932b4c8fd604a7f06ce",
+            "FileName": "defaultpackage_share_assets_game_barrage_sprite.bundle"
+        },
+        {
+            "BundleGUID": "e012ce08ae3d135587d0bbb2cd9e3ce7",
+            "FileName": "defaultpackage_share_assets_game_barrage_sprite_lottery.bundle"
+        },
+        {
+            "BundleGUID": "33df168c4a34d66e893b91fc19f7cf64",
+            "FileName": "defaultpackage_share_assets_game_fronts.bundle"
+        },
+        {
+            "BundleGUID": "003301a85051cd97a2deb8424bc1e4f4",
+            "FileName": "defaultpackage_share_assets_game_resources_moved.bundle"
+        },
+        {
+            "BundleGUID": "cead5998fe13a7556b43c75b874993e4",
+            "FileName": "defaultpackage_share_packages_com_unity_inputsystem_inputsystem_plugins_playerinput.bundle"
+        },
+        {
+            "BundleGUID": "e50f5caefa2282aaae83c9492c0dcd9f",
+            "FileName": "defaultpackage_unityshaders.bundle"
+        }
+    ]
+}

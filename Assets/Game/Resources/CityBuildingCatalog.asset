@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54da1372b7cbaae469fcec20df3449f6, type: 3}
+  m_Name: CityBuildingCatalog
+  m_EditorClassIdentifier: 
+  Buildings1x1:
+  - {fileID: 5088323060497318287, guid: 1a4266c0a7fb87d4cac869180f78da6d, type: 3}
+  - {fileID: 3569577051854279569, guid: 8d00b4fa4bc6dbd48bf07fdb8db30369, type: 3}
+  - {fileID: 5701678358589362092, guid: 719c2a8abaf8cd0479eaf0ca60c27337, type: 3}
+  - {fileID: 7649244343334557673, guid: 33569024f869d4b4886a3284581e06c0, type: 3}
+  - {fileID: 4324025214716406756, guid: d3521e3df8003f042a0c5100a65ea11c, type: 3}
+  Buildings2x1:
+  - {fileID: 264821904049669552, guid: 8107b39b76f45244d9ba310646658385, type: 3}
+  - {fileID: 6785459787677007467, guid: 6423e2eb91dde644798ad0c1f1983357, type: 3}
+  - {fileID: 8701737605277038901, guid: fd5fb449376ac134fb17c03f5288cda6, type: 3}
+  Buildings1x2:
+  - {fileID: 47995024449036321, guid: df30a13954210834eb1b02ab2318b341, type: 3}
+  - {fileID: 6415499865617114136, guid: 92b8f6ef02252e240a67836c7919399e, type: 3}
+  - {fileID: 3213915673411221824, guid: 4351d34c951615046834bc901b629a82, type: 3}
+  Buildings2x2:
+  - {fileID: 8030966605835316538, guid: 4f4faa27f23bcef41b69c44e3202a83d, type: 3}
+  - {fileID: 6391453028812123458, guid: 45a3d48ecaceb4f45ade72242bc19d4c, type: 3}
+  - {fileID: 8209649132532406761, guid: 91c03fb76835ccd42b7adf5e7006ee53, type: 3}
+  OpenFacilities:
+  - {fileID: 1064756194801742596, guid: 7a6d3dc3c146ba0428028ffad7f0395e, type: 3}
+  - {fileID: 53440530176100004, guid: d77023ecf85a29c48a7006644ea111ca, type: 3}
+  - {fileID: 6903807827651319248, guid: 96bfe2df034b608498877abd61f87fe2, type: 3}
+  - {fileID: 5229701313042302908, guid: ba0bf615ede06724fb183eb98cc74cf6, type: 3}

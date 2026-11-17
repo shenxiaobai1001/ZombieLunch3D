@@ -1,0 +1,16 @@
+{
+  "name": "com.zhengjia.cardkeyauth",
+  "version": "1.0.0",
+  "displayName": "CardKey Auth 卡密鉴权",
+  "description": "卡密登录门禁、心跳租约、功能预授权。含 BouncyCastle，菜单一键接入。",
+  "unity": "2021.3",
+  "documentationUrl": "",
+  "keywords": [
+    "cardkey",
+    "auth",
+    "license"
+  ],
+  "author": {
+    "name": "Zhengjia"
+  }
+}

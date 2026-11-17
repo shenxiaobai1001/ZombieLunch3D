@@ -1,0 +1,90 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class UIPrankContro : MonoBehaviour
+{
+    public GameObject prankPanel;
+    public Button btn_setting;
+    public Button btn_boxsetting;
+    public Button btn_specialsetting;
+    public Button btn_lottery;
+    public Button btn_close;
+    public Button btn_clear;
+    public Button btn_add;
+
+    private bool isPrankPanel;
+    const int PrankTopSortOrder = 5000;
+
+    void Start()
+    {
+        btn_setting.onClick.AddListener(OnClickSetting);
+        btn_boxsetting.onClick.AddListener(OnClickBoxSetting);
+        btn_specialsetting.onClick.AddListener(OnClickSpecialSetting);
+        btn_lottery.onClick.AddListener(OnClickLotterySetting);
+        btn_close.onClick.AddListener(ChangePrank);
+        btn_clear.onClick.AddListener(OnClickClear);
+        btn_add.onClick.AddListener(OnClickAdd);
+        prankPanel.SetActive(false);
+        BringToFront();
+    }
+
+    void OnClickSetting()
+    {
+        BarrageController.Instance.ChangePrankType(0);
+    }
+
+    void OnClickBoxSetting()
+    {
+        BarrageController.Instance.ChangePrankType(1);
+    }
+
+    void OnClickSpecialSetting()
+    {
+        BarrageController.Instance.ChangePrankType(2);
+    }
+
+    void OnClickLotterySetting()
+    {
+        BarrageController.Instance.ChangePrankType(3);
+    }
+
+    void OnClickClear()
+    {
+        BarrageController.Instance.RemoveAllItem();
+    }
+    void OnClickAdd()
+    {
+        BarrageController.Instance.AddItem();
+    }
+    public void ChangePrank()
+    {
+        isPrankPanel = !isPrankPanel;
+        if (isPrankPanel)
+        {
+            BringToFront();
+            prankPanel.SetActive(true);
+            BarrageController.Instance.LoadDataFromJson();
+            BarrageController.Instance.ChangePrankType(0);
+        }
+        else
+        {
+            BarrageController.Instance.SaveDataToJson();
+            prankPanel.SetActive(false);
+        }
+    }
+
+    void BringToFront()
+    {
+        transform.SetAsLastSibling();
+        if (prankPanel == null) return;
+        prankPanel.transform.SetAsLastSibling();
+        var canvas = prankPanel.GetComponent<Canvas>();
+        if (canvas == null) canvas = prankPanel.AddComponent<Canvas>();
+        canvas.overrideSorting = true;
+        canvas.sortingOrder = PrankTopSortOrder;
+        if (prankPanel.GetComponent<GraphicRaycaster>() == null)
+            prankPanel.AddComponent<GraphicRaycaster>();
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "FileVersion": "1.0.0",
+    "PackageName": "VideoPackage",
+    "PackageVersion": "2026-11-05-1057",
+    "Wrappers": [
+        {
+            "BundleGUID": "c08f0705eacb0e5ca086ad57dbf8669f",
+            "FileName": "videopackage_assets_game_resources_video_box_关注盲盒_mp4_c08f0705eacb0e5ca086ad57dbf8669f.mp4"
+        },
+        {
+            "BundleGUID": "172852106c3da401753862f63ac0cddd",
+            "FileName": "videopackage_assets_game_resources_video_box_小盲盒_mp4_172852106c3da401753862f63ac0cddd.mp4"
+        },
+        {
+            "BundleGUID": "41bfdbe16c9059d1a28b90f06ec64317",
+            "FileName": "videopackage_assets_game_resources_video_box_火力全开_mp4_41bfdbe16c9059d1a28b90f06ec64317.mp4"
+        },
+        {
+            "BundleGUID": "785bb7ffcc3af3f942bf49c9c5410a9f",
+            "FileName": "videopackage_assets_game_resources_video_box_点赞盲盒2_mp4_785bb7ffcc3af3f942bf49c9c5410a9f.mp4"
+        },
+        {
+            "BundleGUID": "d833cf75e8383219fe698b8791fa3e3e",
+            "FileName": "videopackage_assets_game_resources_video_box_金色传说_mp4_d833cf75e8383219fe698b8791fa3e3e.mp4"
+        }
+    ]
+}

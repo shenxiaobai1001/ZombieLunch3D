@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a9e32494d6d4b4daff985389b43204, type: 3}
+  m_Name: Bow
+  m_EditorClassIdentifier: 
+  m_Bullets: {fileID: 11400000, guid: c3b89d0a362e9bb4cb170edd8ed1aad7, type: 2}
+  m_BulletSpreadCount: 1
+  m_FireType: 2
+  m_Recoil: 0.9
+  m_Accuracy: 0.9
+  m_MaxFireDistance: 200
+  m_Damage: 35
+  m_FireRate: 1
+  m_EquipWeaponClip: {fileID: 0}
+  m_UnequipWeaponClip: {fileID: 0}
+  m_EmptyFireClip: {fileID: 0}
+  m_FirstShotClips:
+  - {fileID: 8300000, guid: 111247f7b98c738449cd753d891b7453, type: 3}
+  m_ShotClips:
+  - {fileID: 8300000, guid: 111247f7b98c738449cd753d891b7453, type: 3}
+  m_LastShotClips:
+  - {fileID: 8300000, guid: 111247f7b98c738449cd753d891b7453, type: 3}
+  m_StretchClips:
+  - {fileID: 8300000, guid: 92c72b5c35814e54db41cdd5414e28f8, type: 3}
+  m_ItemSprite: {fileID: 21300000, guid: d463780edf3e9d94589c63fdbd026216, type: 3}
+  m_Crosshair:
+    m_Center: {fileID: 21300000, guid: d3633286f5ff46b4197c7f40f69b12d7, type: 3}
+    m_Top: {fileID: 21300004, guid: d3633286f5ff46b4197c7f40f69b12d7, type: 3}
+    m_Bottom: {fileID: 21300008, guid: d3633286f5ff46b4197c7f40f69b12d7, type: 3}
+    m_Right: {fileID: 21300002, guid: d3633286f5ff46b4197c7f40f69b12d7, type: 3}
+    m_Left: {fileID: 21300006, guid: d3633286f5ff46b4197c7f40f69b12d7, type: 3}
+    m_CrosshairCenterOffset: 50
+    m_CrosshairReturnTime: 0.1

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a9e32494d6d4b4daff985389b43204, type: 3}
+  m_Name: AK-47
+  m_EditorClassIdentifier: 
+  m_Bullets: {fileID: 11400000, guid: 4186d4e9c736a7c4e93e7f91849944a0, type: 2}
+  m_BulletSpreadCount: 1
+  m_FireType: 1
+  m_Recoil: 0.6
+  m_Accuracy: 0.8
+  m_MaxFireDistance: 500
+  m_Damage: 20
+  m_FireRate: 8
+  m_EquipWeaponClip: {fileID: 0}
+  m_UnequipWeaponClip: {fileID: 0}
+  m_EmptyFireClip: {fileID: 8300000, guid: 3edaa1d3bb2f6204f83669841379a61b, type: 3}
+  m_FirstShotClips:
+  - {fileID: 8300000, guid: 3f8342dd4a4ed804eb525ef0f3f64c60, type: 3}
+  m_ShotClips:
+  - {fileID: 8300000, guid: 2bb6e036f1512a141a9c4f249a27fa05, type: 3}
+  - {fileID: 8300000, guid: 4943af1b626bc2d4b92dfc3a7971f0bd, type: 3}
+  m_LastShotClips:
+  - {fileID: 8300000, guid: a83f402328fc055439e248659e5ff6e6, type: 3}
+  m_StretchClips: []
+  m_ItemSprite: {fileID: 21300000, guid: 58cce4159233f4c43ab06b1b36445187, type: 3}
+  m_Crosshair:
+    m_Center: {fileID: 21300000, guid: d3633286f5ff46b4197c7f40f69b12d7, type: 3}
+    m_Top: {fileID: 21300004, guid: d3633286f5ff46b4197c7f40f69b12d7, type: 3}
+    m_Bottom: {fileID: 21300008, guid: d3633286f5ff46b4197c7f40f69b12d7, type: 3}
+    m_Right: {fileID: 21300002, guid: d3633286f5ff46b4197c7f40f69b12d7, type: 3}
+    m_Left: {fileID: 21300006, guid: d3633286f5ff46b4197c7f40f69b12d7, type: 3}
+    m_CrosshairCenterOffset: 35
+    m_CrosshairReturnTime: 0.25
