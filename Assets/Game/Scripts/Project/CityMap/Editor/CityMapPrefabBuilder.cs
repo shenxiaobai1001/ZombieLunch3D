@@ -11,7 +11,7 @@ namespace Game.CityMap.Editor
     /// </summary>
     public static class CityMapPrefabBuilder
     {
-        const string Root = "Assets/Game/Prefabs/CityMap";
+        const string Root = "Assets/Game/Resources_moved/Prefabs/Game/CityMap";
         const string MatDir = Root + "/Materials";
         const string PieceDir = Root + "/Pieces";
         const string BuildingDir = Root + "/Buildings";
