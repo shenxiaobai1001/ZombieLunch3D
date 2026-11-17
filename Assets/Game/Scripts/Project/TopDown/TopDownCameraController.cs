@@ -5,36 +5,44 @@ using UnityEngine;
 namespace Game.TopDown
 {
     /// <summary>
-    /// 俯视角相机：高空跟随玩家，并开启 WASD 屏幕相对移动。
-    /// 与具体建筑/地块系统无关。
+    /// 俯视角相机：锁定世界朝向（不歪、不滚转），平滑跟随角色根节点，减轻物理移动抖动。
     /// </summary>
     public sealed class TopDownCameraController : MonoBehaviour
     {
         [Header("目标")]
         public Transform FollowTarget;
         public string PlayerTag = "Player";
+        [Tooltip("俯视跟角色根节点更稳；不要跟会抖动的 Camera Track Pos")]
+        public bool PreferPlayerRoot = true;
         public string TrackChildName = "Camera Track Pos";
 
         [Header("俯视参数")]
         public float Height = 16f;
-        [Tooltip("略向前倾一点，便于看到建筑侧面；0 为完全垂直")]
-        public float PitchOffset = 8f;
-        public float FollowDamping = 0.15f;
-        public int CameraPriority = 50;
+        [Tooltip("相对竖直向下的前倾角（度）。0=完全正俯视，画面最正")]
+        [Range(0f, 45f)]
+        public float PitchFromVertical = 0f;
+        [Tooltip("世界 yaw，0 表示屏幕上方=+Z")]
+        public float WorldYaw = 0f;
+        [Tooltip("跟随平滑时间，越大越稳、略有延迟")]
+        public float PositionSmoothTime = 0.08f;
+        public int CameraPriority = 80;
 
         [Header("输入")]
         public bool EnableTopDownMove = true;
-        public bool ShowCursor = true;
 
         CinemachineVirtualCamera _vcam;
         CinemachineStateDrivenCamera _stateDriven;
-        Transform _follow;
+        Transform _player;
+        Transform _smoothFollow;
+        Vector3 _smoothVelocity;
 
         void Start()
         {
-            ResolveFollow();
+            EnsureSmoothFollow();
+            ResolvePlayer();
             SetupVirtualCamera();
             ApplyInputMode(true);
+            ApplyLockedRotation();
         }
 
         void OnDisable()
@@ -42,76 +50,155 @@ namespace Game.TopDown
             ApplyInputMode(false);
         }
 
+        void FixedUpdate()
+        {
+            // 角色用 Rigidbody 时，在 FixedUpdate 采样位置更稳
+            UpdateSmoothFollow(Time.fixedDeltaTime);
+        }
+
         void LateUpdate()
         {
-            if (_follow == null) ResolveFollow();
-            if (_vcam != null && _follow != null)
+            if (_player == null) ResolvePlayer();
+            // 再补一帧插值，对齐渲染
+            UpdateSmoothFollow(Time.deltaTime);
+            ApplyLockedRotation();
+
+            if (_vcam != null && _smoothFollow != null)
             {
-                if (_vcam.Follow != _follow) _vcam.Follow = _follow;
-                if (_vcam.LookAt != _follow) _vcam.LookAt = _follow;
+                if (_vcam.Follow != _smoothFollow) _vcam.Follow = _smoothFollow;
+                _vcam.LookAt = null; // 禁止 LookAt，避免歪斜/滚转
             }
         }
 
-        void ResolveFollow()
+        void EnsureSmoothFollow()
+        {
+            if (_smoothFollow != null) return;
+            var go = new GameObject("TopDownSmoothFollow");
+            go.transform.SetParent(transform, false);
+            _smoothFollow = go.transform;
+        }
+
+        void ResolvePlayer()
         {
             if (FollowTarget != null)
             {
-                _follow = FollowTarget;
+                _player = FollowTarget;
+                SnapSmoothToPlayer();
                 return;
             }
 
-            var player = GameObject.FindGameObjectWithTag(PlayerTag);
-            if (player == null) return;
+            var playerGo = GameObject.FindGameObjectWithTag(PlayerTag);
+            if (playerGo == null) return;
 
-            var track = player.transform.Find(TrackChildName);
-            _follow = track != null ? track : player.transform;
-            FollowTarget = _follow;
+            if (PreferPlayerRoot)
+                _player = playerGo.transform;
+            else
+            {
+                var track = playerGo.transform.Find(TrackChildName);
+                _player = track != null ? track : playerGo.transform;
+            }
+
+            SnapSmoothToPlayer();
+        }
+
+        void SnapSmoothToPlayer()
+        {
+            if (_player == null || _smoothFollow == null) return;
+            _smoothFollow.position = FlatPosition(_player.position);
+            _smoothVelocity = Vector3.zero;
+        }
+
+        static Vector3 FlatPosition(Vector3 p) => new Vector3(p.x, p.y, p.z);
+
+        void UpdateSmoothFollow(float dt)
+        {
+            if (_player == null || _smoothFollow == null) return;
+            var target = FlatPosition(_player.position);
+            // 忽略动画带来的微小 Y 抖动：高度跟角色，但用平滑
+            _smoothFollow.position = Vector3.SmoothDamp(
+                _smoothFollow.position,
+                target,
+                ref _smoothVelocity,
+                Mathf.Max(0.01f, PositionSmoothTime),
+                Mathf.Infinity,
+                dt);
+        }
+
+        void ApplyLockedRotation()
+        {
+            if (_vcam == null) return;
+            // 固定世界朝向：无滚转。PitchFromVertical=0 → 镜头竖直向下，地平线水平。
+            float pitch = 90f - PitchFromVertical;
+            _vcam.transform.rotation = Quaternion.Euler(pitch, WorldYaw, 0f);
         }
 
         void SetupVirtualCamera()
         {
-            if (Camera.main != null && Camera.main.GetComponent<CinemachineBrain>() == null)
-                Camera.main.gameObject.AddComponent<CinemachineBrain>();
+            if (Camera.main != null)
+            {
+                var brain = Camera.main.GetComponent<CinemachineBrain>();
+                if (brain == null) brain = Camera.main.gameObject.AddComponent<CinemachineBrain>();
+                // 与平滑代理配合，用 LateUpdate 输出最终画面
+                brain.m_UpdateMethod = CinemachineBrain.UpdateMethod.LateUpdate;
+                brain.m_BlendUpdateMethod = CinemachineBrain.BrainUpdateMethod.LateUpdate;
+            }
 
-            // 降低第三人称 StateDriven 优先级，避免抢镜
+            // 彻底让第三人称相机让路，避免抢镜导致抖/歪
             _stateDriven = FindObjectOfType<CinemachineStateDrivenCamera>();
             if (_stateDriven != null)
-                _stateDriven.Priority = Mathf.Min(_stateDriven.Priority, CameraPriority - 10);
+            {
+                _stateDriven.Priority = 0;
+                _stateDriven.enabled = false;
+            }
+
+            var freeLooks = FindObjectsOfType<CinemachineFreeLook>();
+            for (int i = 0; i < freeLooks.Length; i++)
+            {
+                freeLooks[i].Priority = 0;
+                freeLooks[i].enabled = false;
+            }
 
             var existing = transform.Find("TopDownVCam");
-            GameObject vcamGo;
-            if (existing != null) vcamGo = existing.gameObject;
-            else
-            {
-                vcamGo = new GameObject("TopDownVCam");
-                vcamGo.transform.SetParent(transform, false);
-            }
+            GameObject vcamGo = existing != null
+                ? existing.gameObject
+                : new GameObject("TopDownVCam");
+            if (existing == null) vcamGo.transform.SetParent(transform, false);
 
             _vcam = vcamGo.GetComponent<CinemachineVirtualCamera>();
             if (_vcam == null) _vcam = vcamGo.AddComponent<CinemachineVirtualCamera>();
 
             _vcam.Priority = CameraPriority;
-            if (_follow != null)
+            _vcam.Follow = _smoothFollow;
+            _vcam.LookAt = null;
+
+            // 去掉会扭头的 Aim（HardLookAt 是歪斜主因）
+            var oldAim = _vcam.GetCinemachineComponent(CinemachineCore.Stage.Aim);
+            if (oldAim != null)
             {
-                _vcam.Follow = _follow;
-                _vcam.LookAt = _follow;
+                if (Application.isPlaying) Destroy(oldAim);
+                else DestroyImmediate(oldAim);
             }
 
             var transposer = _vcam.GetCinemachineComponent<CinemachineTransposer>();
             if (transposer == null)
                 transposer = _vcam.AddCinemachineComponent<CinemachineTransposer>();
 
-            // 相机在角色上方，略偏后形成轻微俯斜
-            float back = Mathf.Tan(PitchOffset * Mathf.Deg2Rad) * Height;
-            transposer.m_FollowOffset = new Vector3(0f, Height, -back);
-            transposer.m_XDamping = FollowDamping;
-            transposer.m_YDamping = FollowDamping;
-            transposer.m_ZDamping = FollowDamping;
+            // 位置只抬高；倾斜完全由锁定旋转控制，避免偏移+LookAt 组合出斜画面
+            transposer.m_FollowOffset = new Vector3(0f, Height, 0f);
+            transposer.m_XDamping = 0f;
+            transposer.m_YDamping = 0f;
+            transposer.m_ZDamping = 0f;
             transposer.m_BindingMode = CinemachineTransposer.BindingMode.WorldSpace;
 
-            var look = _vcam.GetCinemachineComponent<CinemachineHardLookAt>();
-            if (look == null)
-                _vcam.AddCinemachineComponent<CinemachineHardLookAt>();
+            // 关掉可能存在的噪声
+            var noise = _vcam.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+            if (noise != null)
+            {
+                if (Application.isPlaying) Destroy(noise);
+                else DestroyImmediate(noise);
+            }
+
+            ApplyLockedRotation();
         }
 
         void ApplyInputMode(bool enableTopDown)
@@ -129,9 +216,17 @@ namespace Game.TopDown
         [ContextMenu("Reapply Top Down Setup")]
         public void Reapply()
         {
-            ResolveFollow();
+            EnsureSmoothFollow();
+            ResolvePlayer();
             SetupVirtualCamera();
             ApplyInputMode(true);
+            ApplyLockedRotation();
+        }
+
+        void OnValidate()
+        {
+            if (_vcam != null)
+                ApplyLockedRotation();
         }
     }
 }

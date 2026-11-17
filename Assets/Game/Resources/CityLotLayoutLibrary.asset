@@ -14,34 +14,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Entries:
   - LotSize: 0
-    LayoutPrefab: {fileID: 572301091180410282, guid: 1aa7b308e992dec47be2b26cccb1e076, type: 3}
+    LayoutPrefab: {fileID: 7387916241100698000, guid: fb3d463b36ab8cc43b651af2a898664d, type: 3}
     Weight: 1
   - LotSize: 1
-    LayoutPrefab: {fileID: 5763169784768644608, guid: 5cf7001951a473c42a339e558ad95cb4, type: 3}
+    LayoutPrefab: {fileID: 7518538581841557946, guid: 8ac915275402d6340878f54e089c5446, type: 3}
     Weight: 1
   - LotSize: 1
-    LayoutPrefab: {fileID: 5778213116464881820, guid: 846479a45486bbd4dbc2f5a8d8bd66a3, type: 3}
+    LayoutPrefab: {fileID: 2284574072722875893, guid: cb15e44705c0e4847a5c4ffbe6f5bfb1, type: 3}
     Weight: 1
   - LotSize: 2
-    LayoutPrefab: {fileID: 6832448239203576169, guid: 8042f8ce6eabdec4fa3b18e4cd9070b1, type: 3}
+    LayoutPrefab: {fileID: 9131223168933813416, guid: 8519350c01835424291d2663239da96c, type: 3}
     Weight: 1
   - LotSize: 2
-    LayoutPrefab: {fileID: 432458395064039917, guid: 73de6ec8fda84c449a07b2fe9c0cabc6, type: 3}
+    LayoutPrefab: {fileID: 8559142643759847556, guid: d6da59d7590024a43b66d96ff0dc82e9, type: 3}
     Weight: 1
   - LotSize: 3
-    LayoutPrefab: {fileID: 4187416295264180559, guid: e12a417b38cbcd449b739b5b9e737120, type: 3}
+    LayoutPrefab: {fileID: 2732892095185423103, guid: bcde4f8d98af44b4bbec4631f971d9ab, type: 3}
     Weight: 1
   - LotSize: 3
-    LayoutPrefab: {fileID: 110002473553664383, guid: d1c96fc12595b7a459e900c2bf9a2cf5, type: 3}
+    LayoutPrefab: {fileID: 6653968855936299934, guid: f98da31941d183a439d76fd7b92d44d6, type: 3}
     Weight: 0.8
   - LotSize: 3
-    LayoutPrefab: {fileID: 8900931247023272445, guid: c6b5fbc3e18fff445ad6ef20a39a4ed7, type: 3}
+    LayoutPrefab: {fileID: 8472034077184755206, guid: 2ccdf553fcc443f41a16d8af455b6b3e, type: 3}
     Weight: 0.9
   - LotSize: 3
-    LayoutPrefab: {fileID: 307222593141183814, guid: e8ec242687fb2d94ba1da18e06cefdda, type: 3}
+    LayoutPrefab: {fileID: 8355644648334089717, guid: 379658167e79b5d40b6c978787fb3ba9, type: 3}
     Weight: 0.9
   - LotSize: 3
-    LayoutPrefab: {fileID: 1385870875623487424, guid: 2196efbd9e8981647b59512a5c042772, type: 3}
+    LayoutPrefab: {fileID: 316204716765311964, guid: 841d8628f226a9d43b2bdd99e9d5c77f, type: 3}
     Weight: 0.7
   Weight1x1: 1.2
   Weight2x1: 1
